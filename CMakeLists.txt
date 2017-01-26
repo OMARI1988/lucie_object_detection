@@ -137,6 +137,8 @@ include_directories(
 add_executable(save_data src/save_data.cpp)
 target_link_libraries(save_data ${catkin_LIBRARIES})
 
+add_executable(publish_objects src/publish_objects.cpp)
+target_link_libraries(publish_objects ${catkin_LIBRARIES})
 
 ## Add cmake target dependencies of the executable
 ## same as for the library above
